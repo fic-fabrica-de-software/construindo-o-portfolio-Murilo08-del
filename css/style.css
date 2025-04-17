@@ -1,6 +1,6 @@
 * {
     font-family: 'Inknut Antiqua';
-    background-color: ;
+    background-color: #D9D9D9;
 }
 
 .flexivel {
@@ -20,3 +20,7 @@
     list-style: none;
 }
 
+.imagem img {
+    height: 100px;
+    font-weight: 100px;
+}
