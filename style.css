@@ -1,0 +1,21 @@
+* {
+    font-family: 'Inknut Antiqua';
+    background-color: ;
+}
+
+.flexivel {
+    display: flex;
+}
+.menu {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
