@@ -5,14 +5,14 @@ body {
 
 nav {
     margin: 0 auto;
+    margin-left: 10px;
 }
 
 p {
-    margin-left: 100px;
+    margin-left: 400px;
 }
 
 nav h1 {
     font-size: 50px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0); 
-
 }
