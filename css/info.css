@@ -151,13 +151,35 @@ body {
 
 .tubarao1 {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: -200px;
     font-size: 60px;
     animation: nadar 10s linear infinite;
     z-index: -1;
     transform: translateY(-50%);
 }
+
+.tubarao3 {
+    position: absolute;
+    top: 50%;
+    left: -200px;
+    font-size: 60px;
+    animation: nadar 8s linear infinite;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+.tubarao4 {
+    position: absolute;
+    top: 80%;
+    left: -200px;
+    font-size: 60px;
+    animation: nadar 14s linear infinite;
+    z-index: -1;
+    transform: translateY(-50%);
+}
+
+
 
 .img-tubarao {
     height: auto;
