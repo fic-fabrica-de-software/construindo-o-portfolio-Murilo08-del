@@ -4,6 +4,8 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -13,6 +15,11 @@ h1 {
   margin-bottom: 0;
   margin-left: 2vw;
 }
+
+ .navbar{
+    margin-left: 2vw;
+    padding: 2vh;
+ }
 
 .cantotela {
   margin-left: 2vw;
