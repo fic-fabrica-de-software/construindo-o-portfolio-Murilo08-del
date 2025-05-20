@@ -3,10 +3,41 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: #237396;
+}
+
+.imagens {
+    position: relative;
+    z-index: 1; 
+    margin: 0 auto;
+    width: 700px;
+}
+
+.imagem1 img {
+    border-radius: 50%;
+   height: 17vh;
+    margin-left: 20vw;
+    
+}
+
+.imagem2 img {
+    border-radius: 50%;
+    height: 17vh;
+}
+
+.imagem3 img {
+    border-radius: 50%;
+    height: 17vh;
+    margin-left: 20vw;
+}
+
+.imagem4 img {
+    border-radius: 50%;
+    height: 17vh;
 }
 
 .titulo h1 {
-    margin-top: 4vh;
+    margin-top: 1vh;
     justify-content: center;
     display: flex;
     color: white;
@@ -15,10 +46,12 @@ body {
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
-#eu {   
+#eu {
     display: flex;
     justify-content: center;
 }
+
+
 .descricao {
     color: white;
     font-family: sans-serif;
@@ -27,8 +60,6 @@ body {
 }
 
 .flecha {
-    margin-top: 10vh;
-    display: inline-block;
     padding: 1vw;
     font-size: 4vh;
     color: white;
@@ -36,18 +67,12 @@ body {
     cursor: pointer;
     text-decoration: none;
     text-shadow: 1px 1px rgb(0, 0, 0);
-    width: 100%;
 }
 
 .flecha:hover {
     transform: translateX(-9px);
 }
 
-body {
-    margin: 0;
-    overflow: hidden;
-    background: #237396;
-}
 
 .bolha {
     position: absolute;
@@ -112,3 +137,4 @@ body {
         opacity: 0;
     }
 }
+
