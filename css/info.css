@@ -1,9 +1,5 @@
 body {
     font-family: 'Inknut Antiqua';
-    background-color: #d9d9d9;
-    background-image: url("../img indefinida");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 nav {
@@ -22,10 +18,6 @@ nav h1 {
     text-shadow: 1px 1px 1px rgb(0, 0, 0); 
 }
 
-.imagem img {
-    width: 100px;
-    height: auto;
-}
 
 .flecha {
     display: inline-block;

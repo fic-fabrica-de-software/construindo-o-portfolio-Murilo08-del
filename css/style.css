@@ -1,54 +1,112 @@
 body {
-    font-family: 'Inknut Antiqua';
-    background-color: #d9d9d9;
-    background-image: url("../img/Vinland-Saga-4_3.png");
+  font-family: 'Inknut Antiqua';
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    font-size: 50px;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);    
-    margin-bottom: 0px;
-    margin-left: 40px;
+  font-size: 3vw;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  margin-bottom: 0;
+  margin-left: 2vw;
 }
 
-
-
-img {
-    height: 100px;
-    
+.cantotela {
+  margin-left: 2vw;
+  display: flex;
 }
 
-.menu-imagem {
-    display: flex;
-    align-items: flex-start;
-    max-height: 468px;
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  font-size: 3vh;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.navbar li:hover {
+  transform: scale(1.05);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #237396;
+}
+
+.bolha {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  animation: subir 10s linear infinite;
+}
+
+.bolha:nth-child(1) {
+  left: 10%;
+  animation-delay: 0s;
+  width: 30px;
+  height: 30px;
+}
+
+.bolha:nth-child(2) {
+  left: 25%;
+  animation-delay: 2s;
+  width: 50px;
+  height: 50px;
+}
+
+.bolha:nth-child(3) {
+  left: 40%;
+  animation-delay: 4s;
+  width: 20px;
+  height: 20px;
+}
+
+.bolha:nth-child(4) {
+  left: 60%;
+  animation-delay: 1s;
+  width: 45px;
+  height: 45px;
+}
+
+.bolha:nth-child(5) {
+  left: 75%;
+  animation-delay: 3s;
+  width: 35px;
+  height: 35px;
+}
+
+.bolha:nth-child(6) {
+  left: 90%;
+  animation-delay: 5s;
+  width: 25px;
+  height: 25px;
+}
+
+@keyframes subir {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
   }
 
-
-  .navbar ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+  100% {
+    transform: translateY(-110vh) scale(1.2);
+    opacity: 0;
   }
-  
-  .navbar li {
-   font-size: 30px;
-   transition: all 0.3s;
-  }
-
-  .navbar li:hover {
-    transform: scale(1.2);
-   }
-  
-  .navbar a {
-    text-decoration: none;
-    color: black;
-    text-shadow: 1px 1px gray;
-    transition: 2s;
-    transform: scale(1.40);
-  }
-
-  .espada-removebg-preview {
-    height: 100px; 
-    margin-top: 10px;
-  }
+}
