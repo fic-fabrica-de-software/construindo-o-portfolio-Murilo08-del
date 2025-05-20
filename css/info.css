@@ -149,7 +149,10 @@ body {
     transform: translateY(-50%);
 }
 
-
+.img-tubarao {
+    height: auto;
+    width: 8vw;
+}
 @keyframes nadar {
     0% {
         left: -200px;
@@ -157,6 +160,7 @@ body {
     100% {
         left: 110vw;    
     }
+
 }
 
 
