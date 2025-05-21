@@ -180,11 +180,11 @@ body {
 }
 
 
-
 .img-tubarao {
     height: auto;
     width: 8vw;
 }
+
 @keyframes nadar {
     0% {
         left: -200px;
