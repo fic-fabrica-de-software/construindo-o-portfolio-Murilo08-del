@@ -59,7 +59,7 @@ h1 {
   animation: subir 10s linear infinite;
 }
 
-.bolha:nth-child(1) {
+.agua-viva1 {
   left: 10%;
   animation-delay: 0s;
   width: 30px;
@@ -112,3 +112,60 @@ h1 {
     opacity: 0;
   }
 }
+
+.peixe {
+  position: absolute;
+  top: 10%;
+  left: -200px;
+  font-size: 60px;
+  animation: nadar 12s linear infinite;
+  z-index: -2;
+  transform: translateY(-50%);
+}
+
+.peixe1 {
+  position: absolute;
+  top: 45%;
+  left: -200px;
+  font-size: 60px;
+  animation: nadar 15s linear infinite;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+.peixe2 {
+  position: absolute;
+  top: 65%;
+  left: -200px;
+  font-size: 60px;
+  animation: nadar 22s linear infinite;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+.peixe3 {
+  position: absolute;
+  top: 88%;
+  left: -200px;
+  font-size: 60px;
+  animation: nadar 18s linear infinite;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+
+.img-peixe {
+  height: auto;
+  width: 8vw;
+}
+
+@keyframes nadar {
+  0% {
+      left: -200px;
+  }
+  100% {
+      left: 110vw;    
+  }
+
+}
+
