@@ -83,6 +83,7 @@ body {
     background: white;
     border-radius: 50%;
     animation: subir 10s linear infinite;
+    z-index: -1;
 }
 
 .bolha:nth-child(1) {
@@ -145,7 +146,7 @@ body {
     left: -200px;
     font-size: 60px;
     animation: nadar 12s linear infinite;
-    z-index: -1;
+    z-index: -2;
     transform: translateY(-50%);
 }
 
