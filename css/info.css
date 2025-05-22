@@ -140,7 +140,7 @@ body {
     }
 }
 
-.tubarao {
+.peixe {
     position: absolute;
     top: 10%;
     left: -200px;
@@ -150,7 +150,7 @@ body {
     transform: translateY(-50%);
 }
 
-.tubarao1 {
+.peixe1 {
     position: absolute;
     top: 45%;
     left: -200px;
@@ -160,7 +160,7 @@ body {
     transform: translateY(-50%);
 }
 
-.tubarao3 {
+.peixe2 {
     position: absolute;
     top: 65%;
     left: -200px;
@@ -170,7 +170,7 @@ body {
     transform: translateY(-50%);
 }
 
-.tubarao4 {
+.peixe3 {
     position: absolute;
     top: 88%;
     left: -200px;
