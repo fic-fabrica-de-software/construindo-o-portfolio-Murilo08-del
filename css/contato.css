@@ -87,16 +87,6 @@ body {
   }
 }
 
-.agua-viva {
-  position: absolute;
-  bottom: -100px;
-  width: 40px;
-  height: 40px;
-  background: white;
-  border-radius: 50%;
-  animation: subir 10s linear infinite;
-}
-
 .bolha:nth-child(1) {
   left: 10%;
   animation-delay: 0s;
