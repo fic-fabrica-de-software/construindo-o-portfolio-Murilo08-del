@@ -140,3 +140,93 @@ body {
     opacity: 0;
   }
 }
+
+
+@keyframes subir2 {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(-110vh) scale(1.2);
+    opacity: 0.6;
+  }
+}
+
+.agua-viva {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  animation: subir2 15s linear infinite;
+  z-index: -2;
+  left: 900px;
+}
+
+.agua-viva2 {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  animation: subir2 9s linear infinite;
+  z-index: -2;
+  left: 500px;
+}
+.agua-viva3 {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  animation: subir2 18s linear infinite;
+  z-index: -2;
+  left: 100px;
+}
+.agua-viva4 {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  animation: subir2 29s linear infinite;
+  z-index: -2;
+  left: 1200px;
+}
+.agua-viva5 {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  animation: subir2 20s linear infinite;
+  z-index: -2;
+  left: 1700px;
+}
+
+
+
+.img-aguaviva {
+  height: auto;
+  width: 8vw;
+}
+
+.img-aguaviva2 {
+  height: auto;
+  width: 8vw;
+}
+.img-aguaviva3 {
+  height: auto;
+  width: 8vw;
+}
+
+.img-aguaviva4 {
+  height: auto;
+  width: 8vw;
+}
+.img-aguaviva5 {
+  height: auto;
+  width: 8vw;
+}
