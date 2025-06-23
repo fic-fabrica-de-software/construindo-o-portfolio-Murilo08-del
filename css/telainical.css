@@ -207,14 +207,11 @@ h1 {
 }
 
 
-
 .img-aguaviva {
-  height: auto;
   width: 8vw;
+  height: auto;
   cursor: pointer;
 }
-
-
 
 .img-aguaviva2 {
   height: auto;
@@ -239,7 +236,12 @@ h1 {
 .alga img {
   margin-top: 55vh;
   opacity: 0.4;
-  height: 20vh;
+  height: 20vh; 
+  transition: transform 2s ease;
+}
+
+.alga img:hover {
+  transform: scale(1.2);
 }
 
 .alga1 img {
