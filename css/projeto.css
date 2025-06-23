@@ -15,7 +15,7 @@ body {
   left: -200px;
   font-size: 60px;
   animation: nadar 12s linear infinite;
-  z-index: -2;
+  z-index: -1;
   transform: translateY(-50%);
 }
 
@@ -35,6 +35,33 @@ body {
 
 }
 
+.projeto-levado {
+  position: absolute;
+  top: 50%;
+  left: -200px;
+  font-size: 60px;
+  animation: pararNoCentroProjeto 4s linear forwards;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+@keyframes pararNoCentroProjeto {
+  0% {
+    left: -200px;
+    transform: translateY(-50%);
+  }
+
+  100% {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.projeto-levado a {
+  font-size: 2vh;
+  cursor: pointer;
+}
+
 .bolha {
   position: absolute;
   bottom: -100px;
@@ -43,6 +70,7 @@ body {
   background: white;
   border-radius: 50%;
   animation: subir 10s linear infinite;
+  z-index: -2;
 }
 
 
